@@ -1,0 +1,206 @@
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.nao-metais{
+    background-color:rgb(161,211,68);
+}
+.gases-nobres{
+    background-color:  rgb(102, 170, 255);
+}
+.metais-alcalinos{
+    background-color: rgb(255, 170, 0);
+}
+.semi-metais{
+    background-color: #55cc88;
+}
+
+.halogenios{
+    background-color: #00ddbb;
+}
+
+.metais-alcalinos-terrosos{
+    background-color:rgb(243, 243, 0);
+}
+.metais-representativos{
+    background-color: #99bbaa;
+}
+.metais-transicao{
+    background-color:rgb(221, 153, 153);
+}
+.lantanideos{
+    background-color:rgb(255, 170, 136);
+}
+.actinideos{
+    background-color:rgb(221, 170, 204);
+}
+.desconhecido{
+    color: rgb(132, 128, 128);
+}
+h3.liquido{
+    color:rgb(255, 0, 0)
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    top:-7px;
+    right:3px;
+    font-size: 7px;
+}
+span{
+    font-size: 13px;
+}
+h3, p{
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+.gasoso{
+    color: rgb(0, 9, 244);
+}
+
+.lista-seis-elementos{
+    font-size: 6px ;
+}
+.lista-sete-elementos{
+    font-size: 5px;
+    top:-5px
+}
+
+
+#quadrado{
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border:solid 1px;
+    position:relative;
+    
+}
+h4{
+    text-align:left;
+    margin:4px;
+}
+.distribuicao{
+    width:1px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+       
+}
+
+.distribuicao{
+    list-style: none;
+    position: absolute;
+    top:-20px;
+    right:8px;
+    font-size: 6px;
+}
+
+.numero-superiores{
+    top:25px;
+    color:#1f4d85;
+}
+.numero-laterais{
+    text-align: right;
+    color: #1f4d85;
+
+}
+.legenda{
+    grid-column-start:4;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    
+}
+
+.elementos-legenda{
+    text-align: left;
+    
+}
+
+.metais-alcalinos-legenda{
+    background-color: #ffaa00;
+    height: 10px;
+    width: 10px;
+}
+.metais-terrosos-legenda{
+    background-color: #f3f300;
+    height: 10px;
+    width: 10px;
+}
+
+.metais-transicao-legenda{
+    background-color: #dd9999;
+    height: 10px;
+    width: 10px;
+}
+.lantanideos-legenda{
+    background-color:#ffaa88;
+    height: 10px;
+    width: 10px;
+}
+.actinideos-legenda{
+    background-color: #ddaacc;
+    height: 10px;
+    width: 10px;
+}
+.metais-representativos-legenda{
+    background-color: #99bbaa;
+    height: 10px;
+    width: 10px;
+}
+.semi-metais-legenda{
+    background-color: #55cc88;
+    height: 10px;
+    width: 10px;
+}
+.nao-metais-legenda{
+    background-color:#00ee00;
+    height: 10px;
+    width: 10px;
+}
+
+.halogênios-legenda{
+    background-color:#00ddbb;
+    height: 10px;
+    width: 10px;
+}
+.gases-nobres-legenda{
+    background-color:#66aaff;
+    height: 10px;
+    width: 10px;
+}
+
+.solido-legenda{
+    border:1px solid black!important;
+    width: 20px;
+}
+
+.liquido-legenda{
+    position:relative;  
+    color: #f81914;
+    border:1px solid black!important;
+    width: 20px
+}
+.gasoso-legenda{
+    color :rgb(0, 9, 244);
+    border:1px solid black!important;
+    width: 20px       
+}
+.desconhecido-legenda{
+    color: rgb(132, 128, 128);
+    margin-top: 2px;
+    border:1px solid black!important;
+    width: 20px
+}
+
+.solido-legenda:hover{
+    border:1px solid black!important;
+    width: 20px;
+}
+

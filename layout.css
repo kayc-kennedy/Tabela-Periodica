@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{font-family: 'Roboto', sans-serif;}
+
+.container-principal{
+    max-width: 1366px;
+    height: auto;
+    width: 100%;
+    margin: 0px auto;
+
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: repeat(19, 70px);
+
+}
+
+.layout > div:not(.numero-laterais){
+    margin: 2px;
+    text-align: center;
+    padding: 1px 0 1px 0;
+    position: relative;
+    height: auto;
+    
+}
+.cabecalho{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(21, 70px);
+
+}
+.cabecalho > div{
+
+    border-right:1px solid black;
+}
+
+
+
+.layout div{
+    border:2px solid transparent;
+    
+}
+/* Ajustes guigui*/
+.layout div:not(#quadrado):hover:not(.numero-laterais):hover:not(.legenda):hover:not(.numero-superiores):hover:not(.desativar-hover):hover{
+    border:2px solid rgb(0, 0, 0);
+    transition: .2;
+    transform: scale(1.5);
+    cursor: pointer;
+    z-index: 10;    
+}
+
+.legenda > div:not(.solido-legenda):hover:not(.desativar-hover):hover{
+    border: 2px solid transparent!important;
+    transform:none !important;
+    z-index: 11;
+}
+.legenda{
+    margin-left: 60px!important;
+    display: flex;
+    justify-content: left;
+}
+
